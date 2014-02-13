@@ -31,7 +31,7 @@ This is simple Jquery Google map plugin, for easy display google map on page.
 
 5. Call plugin:
 
-	```js
+	```html
 $( document ).ready(function() {
 
 
