@@ -45,3 +45,7 @@ $("#mapCanvas").gmap({
 });
 ```
 
+![ScreenShot](https://raw.github.com/zivko/JQuery-Plugin-GoogleMap/master/images/screen.png)
+
+
+
