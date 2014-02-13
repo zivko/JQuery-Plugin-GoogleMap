@@ -31,19 +31,16 @@ This is simple Jquery Google map plugin, for easy display google map on page.
 
 5. Call plugin:
 
-	```html
+```js
 $( document ).ready(function() {
-
-
 $("#mapCanvas").gmap({
-    MapWidth: "600px",           
-    MapHeight: "400px",         
-    Lat: "-34.397",             
-    Lng: "150.644",             
-    Zoom: 8,                    
+    MapWidth: "600px", 
+    MapHeight: "400px",
+    Lat: "-34.397", 
+    Lng: "150.644", 
+    Zoom: 8,
     Icon: "/images/marker.png"
     });
 });
-
-	```
+```
 
