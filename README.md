@@ -33,13 +33,14 @@ This is simple Jquery Google map plugin, for easy display google map on page.
 
 ```js
 $( document ).ready(function() {
+
 $("#mapCanvas").gmap({
-    MapWidth: "600px", 
-    MapHeight: "400px",
-    Lat: "-34.397", 
-    Lng: "150.644", 
-    Zoom: 8,
-    Icon: "/images/marker.png"
+    MapWidth: "600px",           /* Map width             */
+    MapHeight: "400px",          /* Map height            */
+    Lat: "-34.397",              /* Marker Lat position   */
+    Lng: "150.644",              /* Marker Lng position   */
+    Zoom: 8,                     /* Google map Zoom level */
+    Icon: "/images/marker.png"   /* Path to marker image  */
     });
 });
 ```
