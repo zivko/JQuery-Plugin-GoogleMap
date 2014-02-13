@@ -32,7 +32,6 @@ This is simple Jquery Google map plugin, for easy display google map on page.
 5. Call plugin:
 
 	```js
-<script type="text/javascript">
 $( document ).ready(function() {
 
 //call Maps plugin
@@ -46,6 +45,6 @@ $("#mapCanvas").gmap({
 });
 
 });
-</script>
+
 	```
 
