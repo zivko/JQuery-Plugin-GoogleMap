@@ -50,7 +50,7 @@
 
 
                                google.maps.event.addListener(marker, 'click', function() {
-                               win.open(this.map,marker);
+                                 win.open(this.map,marker);
                                });
 		},
 
@@ -81,7 +81,7 @@
 		$.fn[ pluginName ] = function ( options ) {
 				this.each(function() {
 		 				if ( !$.data( this, "plugin_" + pluginName ) ) {
-								$.data( this, "plugin_" + pluginName, new Plugin( this, options ) );
+						$.data( this, "plugin_" + pluginName, new Plugin( this, options ) );
 						}
 				});
 
