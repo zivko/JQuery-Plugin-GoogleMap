@@ -27,6 +27,7 @@ This is simple Jquery Google map plugin, for easy display google map on page.
        ```html
        <!-- data-title is marker hover title, data-infoWin is content for google InfoWindow -->
        <div data-title="Marker Title" data-infoWin="This is simple content for info win"  id="mapCanvas"/>
+       ```
 
 5. Call plugin:
 
