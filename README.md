@@ -30,9 +30,8 @@ This is simple Jquery Google map plugin, for easy display google map on page.
 
 5. Plugin call:
 
-     ```js
-     
-     $( document ).ready(function() {
+     ```html
+       $( document ).ready(function() {
 
      //call Maps plugin
      $("#mapCanvas").gmap({
@@ -45,4 +44,4 @@ This is simple Jquery Google map plugin, for easy display google map on page.
   });
 
 });
-```
+     ```
